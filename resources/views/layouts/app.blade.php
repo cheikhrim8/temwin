@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="loading" lang="{{ str_replace('_', '-', app()->getLocale()) }}"
+<html class="loading" lang="{{ app()->getLocale() }}"
       data-textdirection="{{app()->getLocale() == 'ar' ? 'rtl' : 'ltr'}}">
 <!-- BEGIN: Head-->
 
@@ -264,6 +264,7 @@
     <div class="content-overlay"></div>
     <div class="content-wrapper">
         <div class="content-body">
+            {{ app()->getLocale() }}
             @yield('content')
         </div>
     </div>
