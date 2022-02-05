@@ -1,0 +1,38 @@
+﻿<?php
+
+return [
+    'fichier_base'=>'Fichiers de base',
+    // droits et profils d'acces
+
+    'droits_acces'=>'Droits d\'accès',
+    'droit_exist'=>'Droits existe dèja',
+    'profil'=>'Profil',
+    'nouveau_profil'=>'Nouveau profil',
+    'profil_aaces'=>'Profils d\'accès',
+    'profils'=>'Profils',
+    'ajout_droit'=>'Ajouter un droit d\'accès',
+    'droits_profil'=>'Les droits d\'accès de profil',
+    'droit_acces'=>'Le Droit d\'accèss',
+    'droit_aces'=>'Droit d\'accèss',
+    'groupe_traitements'=>'Groupe des traitements',
+    'types_acces'=>'Type d\'accès',
+    'consultation'=>'Consultation',
+    'enregistrement'=>'Enregistrement',
+    'validation'=>'Validation',
+    'edition'=>'Edition',
+    'suppression'=>'Suppression',
+    'nouakchott'=>'Nouakchott',
+    'nouadhibou'=>'Nouadhibou',
+    'multiple'=>'Multiple',
+    'depots'=>'Depôts',
+    'nouveau_droit'=>'Nouveau droit d\'acces',
+    'droits'=>'Droits',
+    'code'=>'Code',
+    'zone'=>'Zone',
+    'recep'=>'Réception des échantillons',
+    'part'=>'Particuliers',
+    'analyse'=>'Analyses',
+    'ordre'=>'Ordre',
+    'actions'=>'Actions',
+    'modifier'=>'Modifier',
+];

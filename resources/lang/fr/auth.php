@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Authentication Language Lines
@@ -12,10 +11,8 @@ return [
     | these language lines according to your application's requirements.
     |
     */
-
-    'failed' => "Ces informations d'identification ne correspondent pas à nos dossiers.",
-    'password' => "Le mot de passe fourni est incorrect.",
-    'throttle' => "Trop de tentatives de connexion. Veuillez réessayer dans : secondes secondes.",
-    'logout'=> 'Se déconnecter'
-
+    'login' => 'Se connecter',
+    'remember me' => 'Souviens de moi',
+    'failed' => 'Ces identifiants ne correspondent pas à nos enregistrements',
+    'throttle' => 'Tentatives de connexion trop nombreuses. Veuillez essayer de nouveau dans :seconds secondes.',
 ];

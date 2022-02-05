@@ -6,12 +6,18 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "dcs/admin": "^1.0",
+        "dcs/core": "dev-main",
+        "dcs/menu": "dev-main",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "laravel/ui": "^3.4"
+        "laravel/ui": "^3.4",
+        "maatwebsite/excel": "^3.1",
+        "mpdf/mpdf": "^8.0",
+        "yajra/laravel-datatables-oracle": "~9.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -59,5 +65,27 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/package-dcs/admin.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/package-dcs/ged.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/package-dcs/ref.git"
+        },
+        {
+            "type": "path",
+            "url": "C:/laragon/www/dcs-pakages-dev/packages/core"
+        },
+        {
+            "type": "path",
+            "url": "C:/laragon/www/dcs-pakages-dev/packages/menu"
+        }
+    ]
 }
