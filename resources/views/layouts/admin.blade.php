@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700"
         rel="stylesheet">
 
-{{--    Styles --}}
+    {{--    Styles --}}
     @include('layouts.assets._styles')
 
 </head>
@@ -42,6 +42,13 @@ material-layout 2-columns fixed-navbar"
     <div class="content-overlay"></div>
     <div class="content-wrapper">
         <div class="content-body">
+
+            @if(session('not-authorized'))
+                <div class="alert alert-danger">
+                    {{session('not-authorized')}}
+                </div>
+            @endif
+
             @yield('page-content')
         </div>
     </div>

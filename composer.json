@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "appstract/laravel-stock": "^1.2",
         "dcs/admin": "^1.0",
         "dcs/core": "dev-main",
         "dcs/menu": "dev-main",
